@@ -1,0 +1,36 @@
+<html>
+<header>
+	<meta charset="utf8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="clock.css">
+	<title>Pomodoro Clock</title>
+</header>
+
+
+<body>
+	<div id='clock-box'>
+		<div id='title'>Pomodoro Productivity Clock</div>
+		<div id='break-time'>
+			<div id='break-length'>Break Length</div>
+			<div><button id='less'>-</button><span id='break-text'>5</span><button id='more'>+</button></div>
+		</div>
+
+		<div id='set-time'>
+			<div id='set-length'>Length of Session</div>
+			<div><button id='minus'>-</button><span id='set-text'>25</span><button id='plus'>+</button></div>
+		</div>
+
+		<div id='timer'>
+			<div id='timer-title'>Session</div>
+			<div id='stop-time'>Stop Timer</div>
+			<div id='start-time'>Start Time</div>
+			<div id='restart'>Set New Timer</div>
+			<p id='timer-text'></p>
+		</div>
+	</div>
+<center><footer><a href='https://github.com/jazztbone2b' target='_blank'>Coded by Collin Banks</a></footer></center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="clock.js"></script>
+</body>
+</html>
