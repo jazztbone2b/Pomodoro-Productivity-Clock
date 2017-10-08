@@ -1,0 +1,143 @@
+body{
+	background-color: #424242;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 100;
+}
+#title{
+	font-size: 35px;
+	margin-top: 5px;
+}
+#clock-box{
+	height: auto;
+	width: 500px;
+	border: 1px solid #424242;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#break-time{
+	float: left;
+	margin-left: 120px;
+	margin-top: -40px;
+	text-align: center;
+}
+#set-time{
+	float: right;
+	margin-right: 120px;
+	margin-top: -40px;
+	text-align: center;
+}
+#timer{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	border: 2px solid #43a047;
+	text-align: center;
+}
+#timer-title{
+	font-size: 40px;
+	padding-top: 50px;
+}
+#stop-time{
+	display: ;
+	font-size: 20px;
+	padding-top: 10px;
+	background-color: #00acc1;
+	width: 120px;
+	margin-top: 25px;
+	margin-bottom: -40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	display: none;
+	color: white;
+}
+#start-time{
+	display: ;
+	font-size: 20px;
+	padding-top: 10px;
+	background-color: #43a047;
+	width: 120px;
+	margin-top: 25px;
+	margin-bottom: -40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#restart{
+	display: ;
+	font-size: 20px;
+	padding-top: 10px;
+	background-color: #fb8c00;
+	width: 180px;
+	margin-top: 25px;
+	margin-bottom: -40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	display: none;
+}
+#timer-text{
+	padding-top: 0px;
+	font-size: 60px;
+}
+#break-length, #set-length{
+	padding-top: 70px;
+	font-size: 15px;
+}
+#break-text, #set-text{
+	font-size: 30px;
+}
+button{
+	background-color: #424242;
+	border-style: none;
+	outline: none;
+	font-size: 30px;
+	color: white;
+}
+button:hover{
+	cursor: pointer;
+}
+footer{
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+@media only screen and (max-width: 500px){
+	#title{
+		font-size: 25px;
+	}
+	#clock-box{
+		width: 375px;
+	}
+	#break-time{
+		height: 150px;
+		width: 150px;
+		margin-left: 25px;
+		margin-top: 15px;
+	}
+	#set-time{
+		height: 150px;
+		width: 150px;
+		margin-right: 25px;
+		margin-top: 15px;
+	}
+	#break-length, #set-length{
+		padding-top: 20px;
+	}
+	#timer{
+		margin-top: 120px;
+	}
+}
